@@ -63,3 +63,5 @@ rmse <- function(y_actual, y_pred) {
   sqrt(mean((y_actual - y_pred)^2))
 }
 rmse(test$credits, pred)
+
+# Please Work
